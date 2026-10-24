@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080B2B"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="✨ Happy Diwali ✨"
+            android:textColor="#FFD700"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/tvWish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="May your life shine with happiness!"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:gravity="center"
+            android:text="🎆\n🪔 🪔 🪔\n✨ 🎇 ✨"
+            android:textSize="46sp" />
+
+        <Button
+            android:id="@+id/btnFireworks"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#E91E63"
+            android:text="🎆 Fireworks + Sound"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnDiyas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#FF9800"
+            android:text="🪔 Light Diyas"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnLanterns"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#9C27B0"
+            android:text="🏮 Floating Lanterns"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#009688"
+            android:text="🎵 Play / Pause Music"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCelebrate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#4CAF50"
+            android:text="🎉 Celebrate All"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:backgroundTint="#455A64"
+            android:text="⏹ Stop All"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
+
